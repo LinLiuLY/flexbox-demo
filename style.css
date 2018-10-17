@@ -32,6 +32,10 @@ li {
     align-items: center;
 }
 
+.container-2 li {
+    flex-basis: 200px;
+}
+
 .container-3 {
     padding: 0;
     display: flex;
@@ -63,4 +67,165 @@ li {
 
 .item-3 {
     order: 0;
+}
+
+.container-5 {
+    height: 200px;
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+}
+
+.item-4 {
+    width: auto;
+    flex-basis: 50%;
+}
+
+.item-5 {
+    width: auto;
+    flex-grow: 1;
+}
+
+.item-6 {
+    width: auto;
+    flex-grow: 0;
+}
+
+.item-7 {
+    width: auto;
+    flex: 0 1 auto;
+}
+
+.item-8 {
+    width: auto;
+    flex: 0 0 auto;
+}
+
+.item-9 {
+    width: auto;
+    flex: 1 1 auto;
+}
+
+.item-10 {
+    width: auto;
+    flex: 1 1 auto;
+}
+
+.item-11 {
+    width: auto;
+    flex: 2 1 0;
+    /*same as just writing flex: 2*/
+}
+
+.item-12 {
+    width: auto;
+    flex: 1 1 0;
+    background-color: #8cacea;
+}
+
+.container-6 {
+    height: 700px;
+    ;
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+}
+
+.item-13 {
+    align-self: flex-start;
+}
+
+.item-14 {
+    align-self: flex-end;
+}
+
+.item-15 {
+    align-self: center;
+}
+
+.item-16 {
+    height: auto;
+    align-self: stretch;
+}
+
+.container-7 {
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+}
+
+.item-17 {
+    height: auto;
+    width: auto;
+    flex: auto;
+    /*remember this is same as flex: 1 1 auto;*/
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.item-18 {
+    height: auto;
+    width: auto;
+    flex: auto;
+    /*remember this is same as flex: 1 1 auto;*/
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.container-8 {
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+}
+
+.item-19 {
+    height: auto;
+    width: auto;
+    flex: 1;
+    /*same as flex: 1 1 0*/
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.item-20 {
+    width: auto;
+    height: auto;
+    flex: 1;
+    /*same as flex: 1 1 0*/
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.container-10, .container-9, .container-11 {
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+}
+
+.container-9 li {
+    flex: 0 0 auto;
+}
+
+.container-10 li:nth-child(1) {
+    margin-right: auto;
+}
+
+.container-11 li:nth-child(1) {
+    margin-right: auto;
+    margin-left: auto;
 }
