@@ -1,0 +1,66 @@
+/*Make parent element a flex container*/
+
+.container-1 {
+    height: 400px;
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-direction: row;
+    background-color: gray;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    background-color: #8cacea;
+    margin: 8px;
+}
+
+.container-2 {
+    padding: 0;
+    height: 800px;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 {
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+}
+
+.container-4 {
+    height: 300px;
+    padding: 0;
+    display: flex;
+    /*or inline-flex*/
+    list-style: none;
+    flex-flow: row nowrap;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-1 {
+    order: 3;
+}
+
+.item-2 {
+    order: 1;
+}
+
+.item-3 {
+    order: 0;
+}
