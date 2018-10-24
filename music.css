@@ -130,7 +130,6 @@ li:nth-child(2n) {
 .music-footer {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .music-footer-music {
@@ -154,3 +153,35 @@ li:nth-child(2n) {
     width: 100px;
 }
 
+@media screen and (max-width: 600px) {
+    /*write your css in this code block*/
+    .sm-hide {
+        display: none;
+    }
+
+    .music-head img {
+        width: 150px;
+        padding-bottom: 30px;
+    }
+
+    .music-head {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    li p {
+        flex: 1 0 50%;
+    }
+
+    .music-head {
+        display: inline;
+    }
+
+    .catty-music {
+        padding-left: 0;
+        font-size: 0.6em;
+        text-align: center;
+        align-content: center;
+    }
+
+}
